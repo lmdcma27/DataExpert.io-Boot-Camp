@@ -1,5 +1,6 @@
 
 
+--create the table 
 CREATE TABLE state_change_tracking_players (
     player_name TEXT,
     status TEXT,
@@ -7,10 +8,8 @@ CREATE TABLE state_change_tracking_players (
     PRIMARY KEY (player_name,season)
 )
 
-
-
--- delete from state_change_tracking_players
-
+-- The main idea is handle correctly the conditions in the case statement to a right tracking 
+--of any player status.
 WITH last_season as (
     select * from state_change_tracking_players
     where season=2020
