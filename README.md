@@ -1,5 +1,3 @@
-Certainly! Here's a refined and elegant version of your description, perfect for a README file:
-Setting Up the RDBMS and Restoring the Practices Database
 
 To embark on your data engineering journey, you can effortlessly set up the RDBMS and restore the practices database associated with this bootcamp. Simply follow the instructions provided in the link below:
 
